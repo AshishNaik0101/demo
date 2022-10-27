@@ -93,7 +93,7 @@ else:
             print ("GIT Commit ID : " + git_commit_id)
             root[4][1].text=sw_name+"_"+build_name+"_"+git_commit_id
             root[13][1].text = "TLS01 Scalexio VIII"
-			root[5][1].text = git_commit_id
+	    root[5][1].text = git_commit_id
             try: 
                 if("CommitID" in root[5][0].text):
                     root[5][1].text=git_commit_id
@@ -114,8 +114,8 @@ else:
             print("4 :"+ root[4][1].text)
             print("5 :"+ root[5][0].text)
             print("6 :"+ root[5][1].text)
-			print("7 :"+ root[13][0].text)
-			print("8 :"+ root[13][1].text)
+	    print("7 :"+ root[13][0].text)
+	    print("8 :"+ root[13][1].text)
             print("9 :"+ root[14][0].text)
             print("10 :"+ root[14][1].text)
             print("11 :"+ root[15][0].text)
